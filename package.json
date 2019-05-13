@@ -1,0 +1,19 @@
+{
+  "name": "portfolio-site",
+  "version": "1.0.0",
+  "description": "Responsive Portfolio Site example",
+  "main": "index.js",
+  "homepage": "https://hyperdrive211.github.io/portfolio-site",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Jonathon McCauley",
+  "license": "MIT",
+  "dependancies": {
+    "node-sass": "^4.9.2n"
+  },
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
